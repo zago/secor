@@ -1,0 +1,4 @@
+test:
+  post:
+    - mvn package
+    - cp target/secor-*-SNAPSHOT-bin.tar.gz $CIRCLE_ARTIFACTS/mail-dumper.tar.gz
